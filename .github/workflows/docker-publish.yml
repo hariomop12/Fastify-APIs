@@ -28,7 +28,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: YOUR_DOCKERHUB_USERNAME/fastify-redis-api
+          images: DOCKERHUB_USERNAME/fastify-redis-api
           tags: |
             type=semver,pattern={{version}}
             type=ref,event=branch
